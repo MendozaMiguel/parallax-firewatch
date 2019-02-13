@@ -1,4 +1,4 @@
-# vue-exos
+# vue-Parallax-Animations
 
 ## Project setup
 ```
