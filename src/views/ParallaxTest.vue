@@ -1,5 +1,6 @@
 <template>
   <div id="contenu">
+    <div id="nonparallax"></div>
     <div id="ParallaxTest">
       <div id="parallax0" class="keyart_layer">
 
@@ -38,6 +39,27 @@
 
 
 <style>
+@media screen and (max-width: 600px){
+  #nonparallax {
+    display: block;
+    height: 100vh;
+    position: relative;
+    background-color: red;
+  }
+  #nonparallax {
+    background-image: url("../photo_parallax/keyart-mobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+  #ParallaxTest{
+    display: none;
+  }
+}
+/* #nonparallax {
+    display: none;
+  } */
+
 .keyart_layer {
   background-position: center;
   background-repeat: no-repeat;
